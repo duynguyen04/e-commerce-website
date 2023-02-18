@@ -1,0 +1,39 @@
+.shop {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px 20px 20px;
+}
+.shop h2 {
+  font-weight: none;
+  font-style: italic;
+  margin: 0;
+}
+.shop p {
+  margin: 0;
+  font-style: italic;
+}
+.container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+.imgList {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.imgList img {
+  width: 100%;
+}
+ul {
+  font-style: italic;
+  list-style: none;
+  justify-content: center;
+}
+li a {
+  justify-content: center;
+}
+.container a {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}

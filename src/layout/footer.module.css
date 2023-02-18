@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px 20px 200px;
+  background-color: black;
+  color: #464e51;
+  font-style: italic;
+}
+.footerList {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: white;
+}

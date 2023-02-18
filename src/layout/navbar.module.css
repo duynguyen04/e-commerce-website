@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+.titles {
+  display: flex;
+}
+.title {
+  margin: 0;
+  margin-right: 5px;
+}
+.navbar a {
+  text-decoration: none;
+}
+.titles button {
+  margin: 0;
+  height: fit-content;
+  background-color: none !important ;
+  border: none;
+}

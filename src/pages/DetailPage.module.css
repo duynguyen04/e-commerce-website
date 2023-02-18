@@ -1,0 +1,35 @@
+.detail {
+  display: grid;
+  grid-template-columns: 10% 40% 50%;
+  gap: 10px;
+}
+.dataimg {
+  display: flex;
+  flex-direction: column;
+}
+.detail div img {
+  width: 100%;
+}
+.description {
+  background-color: #333;
+  width: fit-content;
+  padding: 10px;
+  color: white;
+  font-style: italic;
+}
+.title_description {
+  width: 70%;
+}
+p {
+  font-style: italic;
+}
+.relate {
+  gap: 10px;
+}
+.relate img {
+  width: 100%;
+}
+.relate_img {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}

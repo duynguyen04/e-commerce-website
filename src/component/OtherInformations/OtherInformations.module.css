@@ -1,0 +1,29 @@
+.item1 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f9fa;
+  width: 100%;
+}
+.item2 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.item2 h2 {
+  margin: 0;
+}
+.item2 > div > input {
+  padding: 20px;
+  margin-right: 10px;
+}
+
+item2 > div {
+  width: 100%;
+}
+
+.item2 > div > button {
+  padding: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}

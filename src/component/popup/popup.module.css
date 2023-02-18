@@ -1,0 +1,47 @@
+.title {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  gap: 2%;
+  padding: 20px;
+  z-index: 30;
+  position: fixed;
+  top: 10%;
+  width: 60%;
+  background-color: white;
+}
+.popup img {
+  width: 100%;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.short_desc {
+  font-size: 13px;
+  font-style: italic;
+}
+.btn {
+  background-color: #464e51;
+  border: none;
+  padding: 10px;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+.price {
+  margin: 0;
+}
+.name {
+  margin: 0;
+}
+.btnX {
+  position: fixed;
+  top: 14%;
+  right: 18%;
+}
